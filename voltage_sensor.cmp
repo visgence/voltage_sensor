@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-02 BZR 5044)-product   date = 8/13/2014 9:40:30 PM
+Cmp-Mod V01 Created by Cvpcb (2014-08-02 BZR 5044)-product   date = 8/13/2014 10:40:19 PM
 
 BeginCmp
 TimeStamp = /53EAE41B;
@@ -40,6 +40,20 @@ TimeStamp = /53EAE401;
 Reference = C6;
 ValeurCmp = 100n;
 IdModule  = visgence_parts:SM0603_Capa_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EC4E8F;
+Reference = C7;
+ValeurCmp = 47u;
+IdModule  = visgence_parts:SM1206POL_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EC4C40;
+Reference = C8;
+ValeurCmp = 47u;
+IdModule  = visgence_parts:SM1206POL_VIS;
 EndCmp
 
 BeginCmp
@@ -108,7 +122,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53EAE3FA;
 Reference = RP3;
-ValeurCmp = R_PACK4;
+ValeurCmp = 10k;
 IdModule  = visgence_parts:RESARRAY-0612;
 EndCmp
 
