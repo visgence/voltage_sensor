@@ -1,35 +1,35 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
 LIBS:74xx
-LIBS:cmos4000
 LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
 LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
 LIBS:atmel
+LIBS:audio
+LIBS:cmos4000
+LIBS:conn
 LIBS:contrib
+LIBS:cypress
+LIBS:device
+LIBS:digital-audio
+LIBS:display
+LIBS:dsp
+LIBS:intel
+LIBS:interface
+LIBS:linear
+LIBS:memory
+LIBS:microchip
+LIBS:microcontrollers
+LIBS:motorola
+LIBS:opto
+LIBS:philips
+LIBS:power
+LIBS:regul
+LIBS:siliconi
+LIBS:special
+LIBS:texas
+LIBS:transistors
 LIBS:valves
 LIBS:visgence_parts
+LIBS:xilinx
 LIBS:voltage_sensor-cache
 EELAYER 24 0
 EELAYER END
@@ -321,7 +321,7 @@ L TL072 U2
 U 2 1 53EAE497
 P 6600 3050
 F 0 "U2" H 6550 3250 60  0000 L CNN
-F 1 "LT6011" H 6550 2800 60  0000 L CNN
+F 1 "MCP6V07" H 6550 2800 60  0000 L CNN
 F 2 "SMD_Packages:SOIC-8-W" H 6600 3050 60  0001 C CNN
 F 3 "" H 6600 3050 60  0000 C CNN
 	2    6600 3050
@@ -348,7 +348,7 @@ L TL072 U2
 U 1 1 53EAE4A8
 P 3550 4800
 F 0 "U2" H 3500 5000 60  0000 L CNN
-F 1 "LT6011" H 3500 4550 60  0000 L CNN
+F 1 "MCP6V07" H 3500 4550 60  0000 L CNN
 F 2 "SMD_Packages:SOIC-8-W" H 3550 4800 60  0001 C CNN
 F 3 "" H 3550 4800 60  0000 C CNN
 	1    3550 4800
